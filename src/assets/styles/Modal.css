@@ -1,0 +1,103 @@
+.modal {
+    position: absolute;
+    background-color: rgb(246, 246, 240);
+    z-index: 2;
+    border: 5px solid rgb(0,85,229);
+    border-top: none;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+.modal-active {
+    display: inline-block;
+}
+
+.modal-hidden {
+    display: none;
+}
+
+.modal-default {
+    width: 50vw;
+    height: 70vh;
+    top: 10vh;
+    left: 20vw;
+}
+
+.modal-maximized {
+    top: -15px;
+    left: -15px;
+    right: 0;
+    bottom: 35px;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.modal-header {
+    height: 35px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background: linear-gradient(rgb(2,106,250) 5%, rgb(0,85,229), rgb(0,99,253) 100%, rgb(2,106,250));
+    border-top: 5px solid rgb(2,106,250);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    overflow: hidden;
+}
+
+.modal-icon {
+    position: absolute;
+    height: 25px;
+    width: auto;
+    top: 5px;
+    left: 5px;
+}
+
+.modal-title {
+    color: white;
+    position: absolute;
+    top: -10px;
+    left: 40px;
+}
+
+.modal-button {
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    top: 3px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: url('../cursors/default.png'), default;
+}
+
+.modal-button:hover {
+    box-shadow: inset 0 0 0 2000px rgba(255,255,255,0.2);
+}
+
+.modal-close {
+    right: 3px;
+    background-image: url('../icons/close.png');
+}
+
+.modal-maximize {
+    right: 31px;
+    background-image: url('../icons/maximize.png');
+}
+
+.modal-minimize {
+    right: 59px;
+    background-image: url('../icons/minimize.png');
+}
+
+.modal-contents {
+    position: absolute;
+    top: 42px;
+    bottom: 2px;
+    left: 5px;
+    right: 2px;
+    color: black;
+    overflow-y: scroll;
+    overflow-x: wrap;
+}

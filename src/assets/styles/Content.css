@@ -1,0 +1,60 @@
+.content-container h1, h2, h3, h4, p {
+    font-family: Tahoma;
+    user-select: text;
+    cursor: url(../cursors/text.png), text;
+}
+
+.content-text p {
+    font-size: 16px;
+}
+
+.content-center {
+    text-align: center;
+}
+
+.content-separator {
+    width: 33%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.content-resume {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    top: -2px;
+    bottom: -2px;
+    left: -2px;
+    right: -2px;
+}
+
+
+a {
+    color: blue;
+}
+
+.content-container {
+    margin: auto;
+    width: fit-content;
+    max-width: 1000px;
+}
+
+.content-container-flex {
+    margin: auto;
+    width: fit-content;
+    max-width: 1000px;
+    display: flex;
+}
+
+.content-portrait {
+    width: 40%;
+    max-width: 400px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.content-bio {
+    display: inline;
+    width: 40%;
+    max-width: 500px;
+}

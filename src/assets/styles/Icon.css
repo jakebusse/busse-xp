@@ -1,0 +1,31 @@
+.icon-container {
+    max-width: 75px;
+    min-height: 100px;
+    text-align: center;
+    overflow: hidden;
+    flex: 75px;
+    padding: 10px;
+    z-index: 1;
+}
+
+.icon-container img {
+    width: 40px;
+    padding: 5px;
+    margin-top: 5px;
+    user-select: none;
+}
+
+.icon-container p {
+    margin: 5px;
+    padding: 0;
+    user-select: none;
+    font-family: Tahoma;
+    font-size: 14px;
+    color: black;
+    user-select: none;
+}
+
+.icon-active {
+    background-color: rgba(0,0,255,0.5);
+    color: white;
+}
